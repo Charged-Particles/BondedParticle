@@ -11,6 +11,12 @@ module.exports = {
         url: process.env.RPC_URL_MAINNET,
         blockNumber: 15341762,
       }
+    },
+    goerli: {
+      url: process.env.RPC_URL_GOERLI,
     }
+  },
+  etherscan: {
+    apiKey: process.env.ETHERSCAN_API_KEY, 
   }
 };
